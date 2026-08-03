@@ -1,0 +1,15 @@
+{
+    "name": "toniilic/sm2-scheduler",
+    "description": "SM-2 spaced repetition scheduler with learning steps, lapse relearn, ease clamps and a 365-day cap. Zero dependencies.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "files": ["src/Sm2Scheduler.php"]
+    },
+    "require": {
+        "php": ">=8.1"
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    }
+}
