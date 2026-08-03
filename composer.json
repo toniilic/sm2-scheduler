@@ -2,7 +2,7 @@
     "name": "toniilic/sm2-scheduler",
     "description": "SM-2 spaced repetition scheduler with learning steps, lapse relearn, ease clamps and a 365-day cap. Zero dependencies.",
     "type": "library",
-    "license": "MIT",
+    "license": "MIT", "homepage": "https://learncoachassist.com",
     "autoload": {
         "files": ["src/Sm2Scheduler.php"]
     },

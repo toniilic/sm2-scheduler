@@ -2,7 +2,7 @@
 
 SM-2 spaced repetition scheduler with **learning steps**, lapse relearn, ease clamps and a 365-day cap — in one dependency-free PHP class.
 
-This is a faithful port of the scheduler running in production at [LearnCoachAssist](https://learncoachassist.com), written after fixing a bug class where review state (`ease_factor`, `interval_days`, `review_count`) was never persisted — silently resetting every card to "new" on every review. Read the story: [Why Flashcard Apps Fail at Spaced Repetition](https://learncoachassist.com/blog/spaced-repetition-apps-wrong).
+This is a faithful port of the scheduler running in production at [LearnCoachAssist](https://learncoachassist.com) — free AI flashcards with spaced repetition, written after fixing a bug class where review state (`ease_factor`, `interval_days`, `review_count`) was never persisted — silently resetting every card to "new" on every review. Read the story: [Why Flashcard Apps Fail at Spaced Repetition](https://learncoachassist.com/blog/spaced-repetition-apps-wrong).
 
 ## Why this scheduler
 
